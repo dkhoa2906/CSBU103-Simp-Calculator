@@ -7,13 +7,6 @@ body {
     background-color: #1a1a1a;
 }
 
-.heading {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 28px;
-    color: #fff;
-    margin-top: 20px;
-}
-
 .calculator {
     border: none;
     border-radius: 10px;

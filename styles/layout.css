@@ -4,7 +4,7 @@ body {
     align-items: center;
     min-height: 100vh;
     margin: 0;
-    background-color: #1a1a1a;
+    background-color: rgb(44, 44, 44);
 }
 
 .calculator {
@@ -12,9 +12,9 @@ body {
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-    background-color: #2d2d2d;
+    background-color: rgb(23, 23, 23);
     width: 300px;
-    height: 400px;
+    height: 300px;
     text-align: center;
     color: #fff;
 }
@@ -31,6 +31,7 @@ body {
     background-color: #555;
     box-sizing: border-box;
     color: #fff;
+    border-radius: 5px;
 }
 
 .buttons {
@@ -40,10 +41,10 @@ body {
 }
 
 .btn {
-    padding: 20px;
+    padding: 10px;
     font-size: 24px;
     border: none;
-    border-radius: 5px;
+    border-radius: 50px;
     cursor: pointer;
     background-color: #444;
     color: #fff;
@@ -55,13 +56,13 @@ body {
 }
 
 .operator {
-    background-color: #007bff;
+    background-color: #ff9900;
 }
 
 #clear {
-    background-color: #ff4d4d;
+    background-color: #8c8c8c;
 }
 
 #equals {
-    background-color: #33cc33;
+    background-color: #8c8c8c;
 }

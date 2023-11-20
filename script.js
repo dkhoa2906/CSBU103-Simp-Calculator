@@ -46,9 +46,9 @@ function performCalculation() {
             result = (parseFloat(result) + parseFloat(currentInput)).toString();
         } else if (operator === '-') {
             result = (parseFloat(result) - parseFloat(currentInput)).toString();
-        } else if (operator === '*') {
+        } else if (operator === '×') {
             result = (parseFloat(result) * parseFloat(currentInput)).toString();
-        } else if (operator === '/') {
+        } else if (operator === '÷') {
             result = (parseFloat(result) / parseFloat(currentInput)).toString();
         } else {
             result = currentInput;
